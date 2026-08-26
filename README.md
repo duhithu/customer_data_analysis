@@ -1,125 +1,127 @@
 # Customer Shopping Behavior Analysis
 
-## 📌 Overview
+## Overview
 
-This project analyzes customer shopping behavior using **Python, SQL, and Power BI** to uncover valuable business insights. The workflow covers data cleaning, exploratory data analysis (EDA), SQL-based analysis, and interactive dashboard creation.
+This project analyzes customer shopping behavior using **Python, SQL, and Power BI** to identify meaningful business insights. The workflow includes data cleaning, exploratory data analysis (EDA), SQL-based analysis, and interactive dashboard development.
 
-The goal is to transform raw customer data into meaningful insights that support data-driven decision-making.
-
----
-
-## 📊 Dataset
-
-The dataset contains customer shopping information such as:
-
-* 👤 Customer demographics
-* 🛍️ Product categories
-* 💰 Purchase amounts
-* 💳 Payment methods
-* 🔄 Shopping frequency
-* ⭐ Customer preferences
+The primary objective is to transform raw customer transaction data into actionable insights that can support data-driven business decision-making.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Dataset
+
+The dataset contains customer shopping information, including:
+
+* Customer demographics
+* Product categories
+* Purchase amounts
+* Payment methods
+* Shopping frequency
+* Customer preferences
+
+---
+
+## Tools and Technologies
 
 ### Programming
 
-* 🐍 Python
+* Python
 * Pandas
 * NumPy
 
 ### Data Visualization
 
-* 📈 Matplotlib
-* 📉 Seaborn
-* 📊 Power BI
+* Matplotlib
+* Seaborn
+* Power BI
 
 ### Database
 
-* 🗄️ SQL
+* SQL
 * PostgreSQL
 * MySQL
 * SQL Server
 
 ### Development Environment
 
-* 📓 Jupyter Notebook
-* 💻 VS Code
+* Jupyter Notebook
+* Visual Studio Code
 
 ---
 
-## 🚀 Project Workflow
+## Project Workflow
 
-### 1️⃣ Data Loading
+### 1. Data Loading
 
 * Imported the dataset using Pandas
-* Performed initial data inspection
+* Performed an initial inspection of the dataset
+* Reviewed data types, dimensions, and basic statistics
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis
 
 * Analyzed data distributions
-* Generated summary statistics
-* Explored customer purchasing patterns
-* Identified trends and relationships
+* Generated descriptive statistics
+* Examined customer purchasing patterns
+* Identified trends and relationships within the data
 
-### 3️⃣ Data Cleaning
+### 3. Data Cleaning
 
 * Handled missing values
 * Removed duplicate records
-* Corrected inconsistent formats
-* Prepared data for analysis
+* Corrected inconsistent data formats
+* Prepared the dataset for downstream analysis
 
-### 4️⃣ SQL Analysis
+### 4. SQL Analysis
 
-Executed SQL queries to answer business questions such as:
+SQL queries were developed to address key business questions, including:
 
-* Top-selling product categories
-* Customer spending behavior
-* Revenue analysis
-* Shopping frequency trends
-* Payment method usage
+* Which product categories generate the highest sales?
+* What are the customer spending patterns?
+* How does revenue vary across different customer groups?
+* What are the observed shopping frequency trends?
+* Which payment methods are most frequently used?
 
-### 5️⃣ Power BI Dashboard
+### 5. Power BI Dashboard
 
-Built an interactive dashboard featuring:
+An interactive Power BI dashboard was developed to provide a visual overview of the analyzed data.
 
-* 📈 Sales Performance
-* 👥 Customer Demographics
-* 🛍️ Product Category Analysis
-* 💰 Revenue Insights
-* 💳 Payment Method Analysis
-* 🎛️ Interactive Filters & Slicers
+The dashboard includes:
 
----
-
-## 📊 Dashboard Highlights
-
-✔️ KPI Cards
-
-✔️ Interactive Visualizations
-
-✔️ Customer Segmentation
-
-✔️ Revenue Trend Analysis
-
-✔️ Product Performance Tracking
-
-✔️ Dynamic Filtering
+* Sales performance analysis
+* Customer demographic analysis
+* Product category performance
+* Revenue insights
+* Payment method analysis
+* Interactive filters and slicers
 
 ---
 
-## 🔍 Key Insights
+## Dashboard Highlights
 
-* 📌 Identified the highest-performing product categories
-* 📌 Analyzed customer spending patterns
-* 📌 Discovered the most preferred payment methods
-* 📌 Evaluated shopping frequency trends
-* 📌 Generated actionable business insights
+The dashboard provides:
+
+* KPI cards for key performance indicators
+* Interactive data visualizations
+* Customer segmentation
+* Revenue trend analysis
+* Product performance tracking
+* Dynamic filtering and slicing
 
 ---
 
-## 📁 Project Structure
+## Key Insights
+
+The analysis was used to:
+
+* Identify the highest-performing product categories
+* Analyze customer spending patterns
+* Determine the most frequently used payment methods
+* Evaluate shopping frequency trends
+* Generate actionable business insights from customer data
+
+---
+
+## Project Structure
 
 ```text
 Customer-Shopping-Behavior-Analysis/
@@ -133,7 +135,7 @@ Customer-Shopping-Behavior-Analysis/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### Clone the Repository
 
@@ -150,11 +152,13 @@ pip install pandas numpy matplotlib seaborn
 
 ### Run the Notebook
 
+Start Jupyter Notebook:
+
 ```bash
 jupyter notebook
 ```
 
-Open:
+Open the following notebook:
 
 ```text
 CustomerShoppingBehaviourAnalysis.ipynb
@@ -162,27 +166,26 @@ CustomerShoppingBehaviourAnalysis.ipynb
 
 ### Execute SQL Queries
 
-Run:
+Open and execute:
 
 ```text
 Customer_data_analysis.sql
 ```
 
-in PostgreSQL, MySQL, or SQL Server after importing the dataset.
+using PostgreSQL, MySQL, or SQL Server after importing the dataset into the selected database system.
 
-### Open Power BI Dashboard
+### Open the Power BI Dashboard
 
-Open the `.pbix` file in Power BI Desktop and refresh the data connection if needed.
+Open `PowerBI_Dashboard.pbix` using Power BI Desktop. Refresh the data connection if required.
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
-* Data Cleaning 🧹
-* Exploratory Data Analysis 📊
-* SQL Querying 🗄️
-* Data Visualization 📈
-* Dashboard Development 📊
-* Business Analytics 💡
-* Data-Driven Decision Making 🎯
-
+* Data Cleaning
+* Exploratory Data Analysis
+* SQL Querying
+* Data Visualization
+* Power BI Dashboard Development
+* Business Analytics
+* Data-Driven Decision Making
